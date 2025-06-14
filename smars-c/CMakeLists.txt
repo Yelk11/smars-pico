@@ -62,8 +62,7 @@ target_link_libraries(smars-c
         hardware_timer
         hardware_watchdog
         hardware_clocks
-        
+        hardware_pwm
         )
-
 pico_add_extra_outputs(smars-c)
 
